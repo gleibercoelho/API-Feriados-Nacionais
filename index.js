@@ -2,7 +2,7 @@ const anoInput = document.getElementById('ano');
 const endpoint = "https://brasilapi.com.br/api/feriados/v1/";
 const botao = document.querySelector("#buscar");
 const imputNum = document.querySelector('#ano');
-const ul = document.querySelector('#lista-feriados');
+const ul = document.querySelector('#lista-feriados'); 
 
 
 /* imputnum.addEventListener("change", (event) => console.log(event.target.value)); */

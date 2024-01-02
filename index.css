@@ -1,9 +1,9 @@
 body {
-    background: linear-gradient(to top left, #47fcff 0%, #41c870 100%);
+    background-image: linear-gradient(to right, #051937, #002265, #002993, #002ac1, #121ceb);
     background-repeat: no-repeat;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
-    height: 960px;
+    min-height: 90vh;
 }
 
 form{
@@ -16,13 +16,18 @@ form{
 }
 
 input {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #fff;
-    background-color: aquamarine;
-    border:#47fcff solid;
-    width: 200px;
+    font-family: 'Poppins', sans-serif;
+    color: #F8EBFF;
+    background-color: #00A3FF;
+    border: none;
+    width: 300px;
+    height: 50px;
     text-align: center;
     margin: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    overflow: hidden;
+    overflow-y: hidden;
 
 }
 
@@ -33,25 +38,35 @@ input::-webkit-inner-spin-button {
   }
 
 input::placeholder{
-    color: #fff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F8EBFF;
+    font-family: 'Poppins', sans-serif;
+    
+
 }
 
 button {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #fff;
-    background-color: aquamarine;
-    border:#47fcff solid;
-    width: 207px;
+    font-family: 'Poppins', sans-serif;
+    color: #F8EBFF;
+    background-color: #00A3FF;
+    border: none;
+    width: 300px;
     margin: 5px;
     cursor: pointer;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 body ul {
+    font-family: 'Poppins', sans-serif;
     list-style: none;
     list-style-position: inside;
-   font-size: 10px;
-   border: rgb(74, 255, 71, 0.3) solid 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70vh;
+    white-space: wrap;
+   font-size: 25px;
+   border: #8070A2 solid 8px;
    justify-content: center;
    align-content: center;
    text-align: center;
@@ -64,5 +79,8 @@ body ul {
 body ul li {
     text-decoration: none;
     margin-bottom: 30px;
+    width: 210px;
+    height: 150px;
+    color: #F8EBFF;
     
 }
